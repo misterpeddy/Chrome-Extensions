@@ -1,0 +1,24 @@
+{
+	"name": "Forwarder",
+	"commands": {
+		"alert2": {
+			"suggested_key":
+			{
+				"default": "Alt+Up"
+			},
+			"description": "2"
+		}
+	},
+	"background": {
+    	"scripts": ["background.js"],
+    	"persistent": false
+  	},
+  	"permissions": [
+    "commands",
+    "tabs",
+    "https://ajax.googleapis.com/"
+  	],
+	"manifest_version": 2,
+	"description": "Allows forwarding through pages",
+  	"version": "1.1"
+}
