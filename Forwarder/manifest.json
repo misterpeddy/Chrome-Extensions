@@ -16,7 +16,10 @@
   	"permissions": [
     "commands",
     "tabs",
-    "https://ajax.googleapis.com/"
+    "webRequestBlocking",
+    "http://*/",
+    "https://*/",
+    "http://www.google.com/"
   	],
 	"manifest_version": 2,
 	"description": "Allows forwarding through pages",
